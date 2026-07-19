@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.traduccion;
+
+import java.util.Scanner;
+
+public class ejercicio3 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int edad;
+
+        System.out.println("Ingrese su edad:");
+        edad = sc.nextInt();
+
+        if (edad >= 18) {
+            System.out.println("Es mayor de edad.");
+        }
+
+    }
+
+}
